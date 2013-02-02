@@ -1,0 +1,25 @@
+//color change by Daniel
+#include <iostream>
+using namespace std;
+
+int main (){
+  int i = 0;
+	system("cls");
+	system("color1F");
+	cout << "Hello World!" << endl;
+	for(i; i < 1000;i++){
+	if (i%2==0){
+		system("color 1F");
+
+	}
+	else if (i%3==0) {
+	system("color 32");
+	
+	}
+	else {
+	system("color 4A");
+	cout << "bye";
+	}
+		}
+system("PAUSE");
+}
